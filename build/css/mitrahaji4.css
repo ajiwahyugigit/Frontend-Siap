@@ -1,0 +1,177 @@
+body {
+    font-family: Avenir;
+  }
+
+/* Mitra Siap Haji */
+
+.main_container .left_col{
+    background-color: #f4f5f7;
+}
+.main_container .navbar {
+    background-color: #f4f5f7;
+}
+.top_nav {
+    background-color: white;
+}
+.top_nav .nav_menu {
+    background-color: white;
+    border: none;
+}
+.tab-content h2 {
+    font-size: 18px;
+    color: #0c135f;
+    font-weight: bold;
+}
+.card-header {
+    background-color: #f4f5f7;
+    font-weight: bold;
+    color: #0c135f;
+}
+
+.card-body h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0c135f;
+}
+.card-body button {
+    background-color: #0c135f;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+.card-body h3 {
+    color: #0c135f;
+    font-weight: 600;
+}
+.card-body h6, span {
+    color: #0c135f;
+}
+.sub_menu {
+    margin-top: 110px;
+}
+.side-menu .done{
+    background-color: #0c135f;;
+}
+.side-menu li {
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 2px solid #a0a4a8;
+}
+.btn-fillter {
+    background-color: #e8e8e8;
+    padding: 10px 30px;
+
+}
+.icon-side {
+    width: 24px;
+   height: 24px;
+   color: #253999;
+   opacity: 0.1;
+ }
+.has-search2 .form-control {
+     padding-left: 3rem;
+    width: 430px;
+    height: 48px;
+    border-radius: 10px;
+    border: solid 1px #e8e8e8;
+    background-color: #f4f5f7;
+ }
+ 
+.has-search2 .form-control-feedback {
+     position: absolute;
+     z-index: 2;
+     display: block;
+     width: 24px;
+   height: 24px;
+     line-height: 2.375rem;
+     text-align: center;
+     pointer-events: none;
+     color: #aaa;
+     margin-top: 12px;
+     margin-left: 12px;
+ }
+ .btn-create {
+     background-color: #0c135f;
+     color: #fff;
+     padding-top: 13px;
+     font-size: 14px;
+     width: 342px;
+     height: 48px;
+ }
+ .profile b {
+     color: #0c135f;
+ }
+ .daftar-box {
+     height: 4400px;
+     background-color: #f4f5f7;
+     border: none;
+ }
+ .daftar-box b {
+     color: #0c135f;
+     font-weight: 750;
+ }
+ .daftar-box label {
+     color: #0c135f;
+     font-weight: 500;
+ }
+ .daftar-box select {
+     font-size: 12px;
+     height: 47px;
+     border-radius: 8px;
+ }
+ .daftar-box .btn-next {
+     background-color: #0c135f;
+     color: #fff;
+     width: 300px;
+     margin-top: 200px;
+     font-size: 14px;
+     padding: 10px 0px;
+     border-radius: 10px;
+ }
+ .daftar-box .btn-next2 {
+     background-color: #0c135f;
+     color: #fff;
+     width: 300px;
+     margin-top: 150px;
+     font-size: 14px;
+     padding: 10px 0px;
+     border-radius: 10px;
+ }
+ .daftar-box .btn-next3 {
+     background-color: #0c135f;
+     color: #fff;
+     width: 300px;
+     margin-top: 80px;
+     font-size: 14px;
+     padding: 10px 0px;
+     border-radius: 10px;
+ }
+ .heading h5 {
+    font-weight: 600;
+    color: #0c135f;
+ }
+ .box-form-fore label {
+     font-weight: 600;
+ }
+ .box-form-fore input{
+    font-size: 13px;
+    padding: 22px 10px;
+    border-radius: 8px;
+ }
+ .border-input {
+     border: 1px dashed #aaa;
+ }
+ .btn-proses {
+    background-color: #0c135f;
+    color: #fff;
+    padding-top: 13px;
+    font-size: 14px;
+    width: 353px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+/* Selesai Mitra Siap Haji */

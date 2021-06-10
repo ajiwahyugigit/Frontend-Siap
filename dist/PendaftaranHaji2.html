@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pendaftaran HAJI2</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    <link href="../vendors/google-code-prettify/bin/prettify.min.css" rel="stylesheet">
+
+    <!-- Custom styling plus plugins -->
+    <!-- <link href="../build/css/custom.css" rel="stylesheet"> -->
+
+    <link href="../build/css/mitrahaji.css" rel="stylesheet">
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col" style="height: 850px;">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <!-- <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a> -->
+            </div>
+
+            <!-- <div class="clearfix"></div> -->
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="row mb-4">
+                  <div class="col text-center">
+                    <a href="">
+                        <img src="img/siap.png">
+                    </a>
+                  </div>
+              </div>
+            </div>
+
+            <!-- <div class="row sub_menu">
+              <div class="col-12 mb-2">
+                <span>Pilih akun kemitraanmu</span>
+              </div>
+            </div>
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <ul class="nav side-menu">
+                  <li class="done"><a> Mitra SIAP Haji</a></li>
+                  <li><a> Mira SIAP Dana Mobil</a></li>
+                  <li><a> Mira SIAP Dana Rumah</a></li>
+                </ul>
+              </div>
+            </div> <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <!-- <div class="top_nav" >
+            <div class="nav_menu">
+                <div class="nav toggle">
+                  <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                </div>
+                
+            </div>
+          </div> -->
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main" style="background-color: white; height: 760px;">
+          <div class="content mt-5">
+            <div class="row">
+              <!-- [ tabs ] start -->
+              <div class="col-sm-12">
+                <div class="card-body">
+                  <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-uppercase" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Daftar Pengajuan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Profile</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <div class="row mt-3">
+                        <div class="col-12">
+                          <h2>Prosess Pengajuan</h2>
+                        </div>
+                      </div>
+                     <div class="row">
+                      <div class="col-2">
+                        <div class="card">
+                          <div class="card-header">
+                            Pending
+                            <i class="fa fa-chevron-right" style="padding-left: 40px;"></i>
+                          </div>
+                          <div class="card-body text-center">
+                            <h1>1</h1>
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="col-2">
+                        <div class="card">
+                          <div class="card-header">
+                            In Progress
+                            <i class="fa fa-chevron-right" style="padding-left: 20px;"></i>
+                          </div>
+                          <div class="card-body text-center">
+                            <h1>0</h1>
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="col-2">
+                        <div class="card">
+                          <div class="card-header">
+                            Rejected
+                            <i class="fa fa-chevron-right" style="padding-left: 30px;"></i>
+                          </div>
+                          <div class="card-body text-center">
+                            <h1>0</h1>
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="col-2">
+                        <div class="card">
+                          <div class="card-header">
+                            Approved
+                            <i class="fa fa-chevron-right" style="padding-left: 29px;"></i>
+                          </div>
+                          <div class="card-body text-center">
+                            <h1>1</h1>
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="col-2">
+                        <div class="card">
+                          <div class="card-header">
+                            Valid
+                            <i class="fa fa-chevron-right" style="padding-left: 50px;"></i>
+                          </div>
+                          <div class="card-body text-center">
+                            <h1>0</h1>
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="col-2">
+                        <div class="card">
+                          <div class="card-header">
+                            Expired
+                            <i class="fa fa-chevron-right" style="padding-left: 40px;"></i>
+                          </div>
+                          <div class="card-body text-center">
+                            <h1>0</h1>
+                          </div>
+                        </div>
+                       
+                      </div>
+                     </div>
+                     <div class="row mt-3">
+                      <div class="col-12">
+                        <h2>Statistic</h2>
+                      </div>
+                      <div class="col-4">
+                        <div class="card">
+                          <div class="card-header">
+                            Total Aplikasi telah diajukan
+                          </div>
+                          <div class="card-body">
+                            <div class="row">
+                              <div class="col-3 text-center">
+                                <h3>9</h3>
+                              </div>
+                              <div class="col-9">
+                                <button class="btn btn-block">
+                                  Buat Pengajuan Baru
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="row mt-3">
+                      <div class="col-12">
+                        <h2>Informasi Mitra</h2>
+                      </div>
+                      <div class="col-4">
+                        <div class="card">
+                          
+                          <div class="card-body">
+                            <div class="row">
+                              <h6>ADMINISTRATOR MITRA</h6><br>
+                            </div>
+                            <div class="row">
+                              <span>087767218271</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="row">
+                        <div class="col-5">
+                          <div class="card p-3 daftar-box">
+                            <h2>Pendaftaran SIAP Haji</h2>
+                            <p>Form untuk melakukan Pendaftaran</span> <br>
+                            <div class="row">
+                              <div class="col-12">
+                                <b>Pilih Area Tempat Tinggal Anda</b>
+                              </div>
+                              <div class="row">
+                                <div class="col-12 mt-3 pl-4">
+                                  <div class="row">
+                                    <div class="col-1 mt-3">
+                                      <input type="radio" checked="" value="option1" id="optionsRadios1" name="optionsRadios">
+                                    </div>
+                                    <div class="col">
+                                      <label>
+                                        Jakarta, Bandung, Semarang,Surabaya, Medan, Pekanbaru, Palembang, Bali, Makasar, Balikpapan, Pontianik, Banjarmasin</label>
+                                    </div>
+                                  </div>
+
+                                </div>
+                                <div class="col-12 pt-4 pl-4">
+                                  <div class="row">
+                                    <div class="col-1 mt-3">
+                                      <input type="radio" checked="" value="option1" id="optionsRadios1" name="optionsRadios">
+                                    </div>
+                                    <div class="col">
+                                      <select id="heard" class="form-control" required>
+                                        <option value="">Lainnya</option>
+                                        <option value="">...</option>
+                                        <option value="">...</option>
+                                        <option value="">...</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </div>
+                              </div>
+                              
+                              <div class="col text-center">
+                                <a href="PendaftaranHaji3.html" class="btn btn-next2 text-center">
+                                  Lanjut
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade profile" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                      <div class="row">
+                        <div class="col">
+                          <span>Kode Mitra</span> <br>
+                          <b>MI00245</b>
+                        </div>
+                        <div class="col">
+                          <span>Status</span> <br>
+                          <b>Aktif</b>
+                        </div>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <span>Jenis Kemitraan</span> <br>
+                          <b>PERSEORANGAN NON KARYAWAN</b>
+                        </div>
+                        <div class="col">
+                          <span>Cabang</span> <br>
+                          <b>Head Office</b>
+                        </div>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <span>NPWP</span> <br>
+                          <b>10000.0000</b>
+                        </div>
+                        <div class="col">
+                          <span>Telepon</span> <br>
+                          <b>0812323821</b>
+                        </div>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <span>Tempat & Tanggal Lahir</span> <br>
+                          <b>Tangerang 02/02/1992</b>
+                        </div>
+                        <div class="col">
+                          <span>Nomor Handphone</span> <br>
+                          <b>0812323821</b>
+                        </div>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <span>Alamat Lengkap</span> <br>
+                          <b>Jl.Kedaung No.20 Jakarta MNC Tower</b>
+                        </div>
+                        <div class="col">
+                          <span>Email</span> <br>
+                          <b>jajang@gmail.com</b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+             
+              <!-- [ tabs ] end -->
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Member OF <a href="https://colorlib.com"><img src="img/mnc-group.png" height="30px" class="pl-4"></a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- compose -->
+    
+    <!-- /compose -->
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+   <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- bootstrap-wysiwyg -->
+    <script src="../vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="../vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="../vendors/google-code-prettify/src/prettify.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+  </body>
+</html>
