@@ -50,18 +50,15 @@ body {
     margin-top: 110px;
 }
 .side-menu .done{
-    background-color: rgb(255, 255, 255);
-    border-left: 4px solid #0c135f;
+    background-color: #0c135f;;
 }
-
 .side-menu li {
     height: 45px;
+    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    padding-left: 15px;
-    padding-top: 10px;
-    color: #0c135f;
+    border: 2px solid #a0a4a8;
 }
 .btn-fillter {
     background-color: #e8e8e8;
@@ -107,12 +104,12 @@ body {
  .profile b {
      color: #0c135f;
  }
- .daftar-box {
-     height: 4400px;
-     background-color: #f4f5f7;
-     border: none;
+ .box-table {
+    background-color: #f4f5f7;
+    border: none;
  }
- .daftar-box-two {
+ .daftar-box {
+     height: 500px;
      background-color: #f4f5f7;
      border: none;
  }
@@ -147,6 +144,22 @@ body {
      padding: 10px 0px;
      border-radius: 10px;
  }
+ .btn-simpan {
+     background-color: #f4f5f7;
+     border: 2px solid #a0a4a8;
+     width: 300px;
+     font-size: 14px;
+     padding: 15px 0px;
+     border-radius: 10px;
+ }
+ .btn-proses {
+     background-color: #0c135f;
+     color: #fff;
+     width: 300px;
+     font-size: 14px;
+     padding: 15px 0px;
+     border-radius: 10px;
+ }
  .daftar-box .btn-next3 {
      background-color: #0c135f;
      color: #fff;
@@ -168,31 +181,5 @@ body {
     padding: 22px 10px;
     border-radius: 8px;
  }
- .border-input {
-     border: 1px dashed #aaa;
- }
- .btn-proses {
-    background-color: #0c135f;
-    color: #fff;
-    padding-top: 13px;
-    font-size: 14px;
-    width: 353px;
-    height: 48px;
-    border-radius: 8px;
-}
-
-.btn-regist {
-    background-color: #0c135f;
-    color: #fff;
-    padding: 13px 0px;
-    font-size: 14px;
-}
-.btn-save {
-    margin-top: 10px;
-    color: #0c135f;
-    padding: 13px 0px;
-    font-size: 14px;
-    border: 3px solid #aaa;
-}
 
 /* Selesai Mitra Siap Haji */

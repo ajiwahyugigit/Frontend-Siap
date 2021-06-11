@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Mitra SIAP HAJI</title>
+    <title>Nasabah</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
     <!-- Custom styling plus plugins -->
     <!-- <link href="../build/css/custom.css" rel="stylesheet"> -->
 
-    <link href="../build/css/mitrahaji.css" rel="stylesheet">
+    <link href="../build/css/nasabah.css" rel="stylesheet">
     <link href="../build/css/custom.min.css" rel="stylesheet">
   </head>
 
@@ -47,12 +47,12 @@
               </div>
             </div>
 
-            <div class="row sub_menu">
+            <!-- <div class="row sub_menu">
               <div class="col-12 mb-2">
                 <span>Pilih akun kemitraanmu</span>
               </div>
             </div>
-          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
                 <ul class="nav side-menu">
                   <li class="done"><a> Mitra SIAP Haji</a></li>
@@ -63,7 +63,7 @@
             </div> <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -87,17 +87,17 @@
                 <div class="card-body">
                   <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link active text-uppercase" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Dashboard</a>
+                      <a class="nav-link text-uppercase" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-uppercase" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Daftar Pengajuan</a>
+                      <a class="nav-link active text-uppercase" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Daftar Pengajuan</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-uppercase" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Profile</a>
                     </li>
                   </ul>
                   <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
                       <div class="row mt-3">
                         <div class="col-12">
                           <h2>Prosess Pengajuan</h2>
@@ -220,97 +220,107 @@
                       </div>
                     </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                      <div class="row">
-                        <div class="col-1 ml-2">
-                          <a href="" class="btn btn-fillter">
-                            <i class="fa fa-sort"></i>
-                          </a>
+                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="card box-table py-4 px-3">
+                        <div class="row">
+                        <div class="col-5">
+                          <h2>Pendaftaran SIAP Haji</h2>
+                          <p>Form untuk melakukan Pendaftaran</span> <br>
                         </div>
-                        <div class="col-7">
-                          <div class="form-group has-search2">
-                            <img src="img/search.png" class="form-control-feedback" />
-                            <input type="text" class="form-control" placeholder="Search" />
-                          </div>
-                        </div>
-                        <div class="col-12">                          
-                          <div class="x_panel">
-                            <div class="x_content">
-  
-                              <table class="table table-striped">
-                                <thead>
-                                  <tr>
-                                    <th>No</th>
-                                    <th>Nama</th>
-                                    <th>Nomor KTP</th>
-                                    <th>Tanggal Lahir</th>
-                                    <th>Alamat</th>
-                                    <th>Status</th>
-                                    <th>Dokumen</th>
-                                    <th>Edit</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td>Hendro Kartiko</td>
-                                    <td>36711187892739</td>
-                                    <td>10/12/1994</td>
-                                    <td>Jl. Kedaung No.49</td>
-                                    <td>Rejected</td>
-                                    <td class="text-center">
-                                      <i class="fa fa-file-archive-o"></i>
-                                    </td>
-                                    <td class="text-center"><i class="fa fa-pencil"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">2</th>
-                                    <td>Hendro Kartiko</td>
-                                    <td>36711187892739</td>
-                                    <td>10/12/1994</td>
-                                    <td>Jl. Kedaung No.49</td>
-                                    <td>Rejected</td>
-                                    <td class="text-center">
-                                      <i class="fa fa-file-archive-o"></i>
-                                    </td>
-                                    <td class="text-center"><i class="fa fa-pencil"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">3</th>
-                                    <td>Hendro Kartiko</td>
-                                    <td>36711187892739</td>
-                                    <td>10/12/1994</td>
-                                    <td>Jl. Kedaung No.49</td>
-                                    <td>Rejected</td>
-                                    <td class="text-center">
-                                      <i class="fa fa-file-archive-o"></i>
-                                    </td>
-                                    <td class="text-center"><i class="fa fa-pencil"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">4</th>
-                                    <td>Hendro Kartiko</td>
-                                    <td>36711187892739</td>
-                                    <td>10/12/1994</td>
-                                    <td>Jl. Kedaung No.49</td>
-                                    <td>Rejected</td>
-                                    <td class="text-center">
-                                      <i class="fa fa-file-archive-o"></i>
-                                    </td>
-                                    <td class="text-center"><i class="fa fa-pencil"></i></td>
-                                  </tr>
-                                </tbody>
-                              </table>
-          
+                          <div class="col-12">                          
+                            <div class="x_panel">
+                              <div class="x_content">
+    
+                                <table class="table table-striped">
+                                  <thead>
+                                    <tr class="text-center">
+                                      <th>No</th>
+                                      <th>Nama</th>
+                                      <th>Tanggal Lahir</th>
+                                      <th>Tenor</th>
+                                      <th>Status</th>
+                                      <th>Aksi</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr class="text-center">
+                                      <th scope="row">1</th>
+                                      <td>Hendro Kartiko</td>
+                                      <td>10/12/1994</td>
+                                      <td>5 Tahun - Rp. 3500.000</td>
+                                      <td>
+                                        Penjamin dan Nasabah
+                                      </td>
+                                      <td>
+                                        <i class="fa fa-pencil pr-3"></i>
+                                        <i class="fa fa-trash"></i>
+                                      </td>
+                                    </tr>
+                                    <tr class="text-center">
+                                      <th scope="row">2</th>
+                                      <td>Hendro Kartiko</td>
+                                      <td>10/12/1994</td>
+                                      <td>5 Tahun - Rp. 3500.000</td>
+                                      <td>
+                                        Penjamin dan Nasabah
+                                      </td>
+                                      <td>
+                                        <i class="fa fa-pencil pr-3"></i>
+                                        <i class="fa fa-trash"></i>
+                                      </td>
+                                    </tr>
+                                    <tr class="text-center">
+                                      <th scope="row">3</th>
+                                      <td>Hendro Kartiko</td>
+                                      <td>10/12/1994</td>
+                                      <td>5 Tahun - Rp. 3500.000</td>
+                                      <td>
+                                        Penjamin dan Nasabah
+                                      </td>
+                                      <td>
+                                        <i class="fa fa-pencil pr-3"></i>
+                                        <i class="fa fa-trash"></i>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="6">
+                                        <button class="btn btn-done pull-right" style="border-radius: 50%;">
+                                          <i class="fa fa-plus p-1"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    
+                                  </tbody>
+                                </table>
+            
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class="col text-center">
-                          <a href="PendaftaranHaji.html" class="btn btn-create">
-                            Buat Pengajuan Baru
-                          </a>
+                        <div class="row">
+                          <div class="col-5">
+                            <label style="font-weight: 700; color: #0c135f;">
+                              <input type="checkbox" value=""> 
+                              Peserta Haji yang ikut sudah lengkap
+                            </label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-7">
+                            <span style="color: #0c135f;">*dengan ini saya menyetujui untuk melakukan pengajuan pembiayaan melalui SIAP Haji. Semua Informasi yang telah dilengkapi adalah benar dan sesuai</span>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-4">
+                            <a href="" class="btn btn-simpan btn-block">
+                              Simpan dan teruskan nanti
+                            </a>
+                          </div>
+                          <div class="col-3">
+                            <a href="" class="btn btn-proses btn-block">
+                              Proses Pendaftaran
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
