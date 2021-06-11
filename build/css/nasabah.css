@@ -152,6 +152,28 @@ body {
      padding: 15px 0px;
      border-radius: 10px;
  }
+ .btn-home {
+     background-color: #f4f5f7;
+     border: 2px solid #a0a4a8;
+     font-size: 14px;
+     padding: 15px 0px;
+     border-radius: 10px;
+ }
+ .btn-proses {
+     background-color: #0c135f;
+     color: #fff;
+     width: 300px;
+     font-size: 14px;
+     padding: 15px 0px;
+     border-radius: 10px;
+ }
+ .btn-status {
+     background-color: #0c135f;
+     color: #fff;
+     font-size: 14px;
+     padding: 15px 0px;
+     border-radius: 10px;
+ }
  .btn-proses {
      background-color: #0c135f;
      color: #fff;
